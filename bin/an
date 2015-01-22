@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'angularnode'
+
+pg = ProjectGenerator.new('templates')
+pg.generate('d3-demo1')
