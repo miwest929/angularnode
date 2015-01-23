@@ -1,5 +1,5 @@
 require 'erb'
 require 'ostruct'
 require 'fileutils'
-require 'project_generator'
+require 'angularnode/project_generator'
 

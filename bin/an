@@ -2,5 +2,8 @@
 
 require 'angularnode'
 
-pg = ProjectGenerator.new('templates')
-pg.generate('d3-demo1')
+project = ARGV.first
+puts "Creating Angular/NodeJS project called #{project}."
+
+pg = ProjectGenerator.new("#{File.dirname(__FILE__)}/../lib/angularnode/templates")
+pg.generate(project)
